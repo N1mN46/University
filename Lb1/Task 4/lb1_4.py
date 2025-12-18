@@ -30,6 +30,7 @@ async def main():
     print("Повідомлення успішно надіслано!")
 
 
-# Ваша оригінальна структура запуску. Вона повністю робоча.
+
 with client:
+
     client.loop.run_until_complete(main())
